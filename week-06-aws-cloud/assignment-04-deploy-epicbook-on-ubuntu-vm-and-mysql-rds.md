@@ -208,6 +208,42 @@ Add your screenshot here.
 
 ---
 
+# LinkedIn Post (Required)
+
+## Goal
+
+Publish a LinkedIn post sharing your experience deploying EpicBook on an Ubuntu EC2 instance with Nginx and a private Amazon RDS MySQL database.
+
+Include:
+- A screenshot of the live EpicBook application showing the book listing
+- Your application URL: `http://<EC2_PUBLIC_IP>/`
+- A caption in your own words explaining what you deployed, how the main components connect, and what you learned about network security, Nginx, and PM2
+- One challenge you faced and how you resolved it, if applicable
+
+Include these hashtags:
+
+#DMIByPravinMishra #AWS #DevOps #CloudComputing
+
+Add the credit note for your track, replace `YOUR-GITHUB-USERNAME` with your GitHub username, and include the tags specified in the assignment guidelines.
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+`Add your URL here`
+
+---
+
+#### Screenshot 22 — Published LinkedIn post showing your caption, application URL, and live EpicBook screenshot
+
+Add your screenshot here.
+
+> **Privacy Note:** Do not expose passwords, private keys, `.env` values, database credentials, or sensitive AWS account information.
+
+---
+
 # Submission Instructions
 
 - Add all required screenshots in your submission
@@ -227,6 +263,7 @@ Add your screenshot here.
 - [ ] Task 8: Nginx proxying requests to EpicBook, with PM2 persistence. (Screenshots 17–18)
 - [ ] Task 9: Frontend, backend, and RDS verified end to end (Screenshots 19–21)
 - [ ] No sensitive data exposed
+- [ ] LinedIn post published
 
 ---
 
