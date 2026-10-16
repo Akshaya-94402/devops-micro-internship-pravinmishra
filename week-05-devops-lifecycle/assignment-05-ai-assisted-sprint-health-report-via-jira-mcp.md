@@ -208,8 +208,8 @@ Your submission must include:
 - [ ] Skill never created, edited, transitioned, or commented on any issue
 - [ ] Reflection answered (Notes)
 - [ ] No API token value exposed
-- [ ] - LinkedIn Post URL
-- [ ] - LinkedIn Screenshot 1
+- [ ] LinkedIn Post URL
+- [ ] LinkedIn Screenshot 1
 
 ---
 
