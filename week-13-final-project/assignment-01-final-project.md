@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 **Individual Cloud Deployment · Claude Code · Portfolio Evidence**
 
-**Submission deadline:** [To be added by the DMI team]  
+**Submission deadline:** 28 Nov 2026  
 
 **Submission link:** [To be added by the DMI team]
 
