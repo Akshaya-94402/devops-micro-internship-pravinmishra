@@ -1,135 +1,763 @@
-# Week 13 — Final Project
+# DMI with Agentic AI — Cohort 3
+
+# Final Project Submission
 
 Part of the DevOps Micro Internship (DMI) with Agentic AI
 
----
+**Individual Cloud Deployment · Claude Code · Portfolio Evidence**
+
+**Submission deadline:** 28 Nov 2026  
+
+**Submission link:** [To be added by the DMI team]
+
+## Student Details
+
+| Field | Your response |
+| --- | --- |
+| Full name | Add your full name |
+| Cohort 3 group | Add your group / squad |
+| GitHub username | Add your username |
+| LinkedIn profile URL | Add your profile URL |
+| Individual platform repository URL | Add your individual repository URL |
 
 ## Purpose
 
-Bring together everything from the program into one capstone project. Describe what you built, how it's architected, and what you learned across the full 14 weeks.
+Build and deploy a platform for the existing Spring Petclinic Microservices application on your selected cloud platform individually. Use **Claude Code** to support platform engineering, review, and troubleshooting, while keeping infrastructure-changing decisions under human control.
+
+## How to Complete This Document
+
+Complete **Part A**. Submit **one completed document per student**. 
+
+| Part | Required outcome |
+| --- | --- |
+| **Part A — Individual Project Deployment** | Personally build and deploy your own platform on your selected cloud platform using Claude Code, verify the application, and document your work. |
+
+
+**Cloud deployment on AWS or Azure and Claude Code use are mandatory in both parts.** A local-only Docker Compose deployment does not satisfy either part. Local runs may be included as preparation evidence. 
+
+
+### Cloud and Architecture Choices
+
+Choose **AWS or Azure** for each project and record your choice in A1. You do not need to deploy to both cloud providers or submit separate dev and prod evidence. Both projects must run on Kubernetes and use Claude Code.
+
+You may adapt the networking, services, resource sizes, deployment tools, and monitoring design to suit your project. NAT gateways and higher-cost resources are allowed. Record significant decisions and their trade-offs in the architecture decision section for each project. No additional screenshots are required for those decisions.
+
+
+### Repository Responsibilities
+
+| Repository | Purpose | Student responsibility |
+| --- | --- | --- |
+| [Spring Petclinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices) | Existing application source code | Use the supplied application without modifying its application code. |
+| Team platform repository | Team infrastructure, deployment automation, platform configuration, documentation, and Claude Code setup | One team member forks the [platform starter repository](https://github.com/pravinmishraaws/petclinic-platform) and adds all team members as collaborators. Use this shared repository, work on separate branches, and review changes through pull requests before merging into `main`. |
+| Individual platform repository | Individual infrastructure, deployment automation, platform configuration, documentation, and Claude Code setup | Keep your individual implementation and deployment in a separate repository. |
+
+Platform starter repository: [Petclinic Platform](https://github.com/pravinmishraaws/petclinic-platform). Adapt its cloud-specific configuration for Azure if you choose Azure.
+
+Keep platform code and configuration in your platform repository. Use the project guidelines as your starting point and document architecture changes in the decision section below.
+
+
+### Evidence Instructions
+
+1. Replace every response placeholder with your own answer or link.
+
+2. Include the required repository URLs, presentation links, and evidence.
+
+3. Record the cloud region and deployment date for the project.
+
+4. Remove credentials, tokens, private keys, and sensitive values from screenshots and logs. Do not commit secrets or Terraform state files.
+
+5. Capture deployment evidence before cleanup. If the application is unavailable after cleanup, include dated screenshots and verification output.
+
+6. Check that mentors can access your repositories, presentation, recording, screenshots, and published posts.
+
+
+### Mandatory Agentic AI Evidence — Both Parts
+
+Use Claude Code throughout your platform engineering workflow to support planning, infrastructure development, deployment, review, and troubleshooting. Include screenshots and brief explanations showing how you used Claude Code, reviewed its recommendations, and validated the results.
+
+For **individual projects**, include focused evidence showing:
+
+- A platform task you completed using Claude Code.
+
+- How Claude Code assisted with implementation, review, or troubleshooting.
+
+- How you reviewed its recommendations and verified the results.
+
+Include relevant screenshots and brief explanations. Review and approve infrastructure changes before applying them.
 
 ---
 
-# Task 1 — Project Overview
+# Part A — Individual Cloud Deployment
 
-## Goal
+Complete this part personally. Include evidence of your own platform work, Claude Code workflow, cloud deployment, and verification.
 
-Describe your final project in 2-3 sentences. What does it do? What problem does it solve?
+## Task A1 — Deployment Details
+
+### Goal
+
+Record your individual platform repository and cloud deployment details.
 
 ### Evidence
 
-**Project Name:**
-
-**GitHub Repo:** Add your project repository link here...
-
-**Live URL:** Add your deployed application link here (if applicable)...
+| Field | Your response |
+| --- | --- |
+| Individual platform repository URL | Add your repository URL |
+| Cloud platform | AWS or Azure |
+| Cloud region | Add the region |
+| Cloud services used | List the services you used |
+| Deployment date | DD Month YYYY |
+| Application URL | Add your application URL |
 
 ---
 
-# Task 2 — Architecture
+## Task A2 — Platform Repository and Architecture
 
-## Goal
+### Goal
 
-Describe or embed a diagram of your project architecture.
+Show your individual platform architecture and explain how your repository is organized.
 
 ### Evidence
 
-#### Screenshot 1 — Architecture diagram
+### Architecture Diagram
+
+Add your architecture diagram showing the cloud resources, Kubernetes cluster, application traffic flow, deployment tools, and monitoring components.
+
+Add your diagram here.
+
+### Architecture Decisions and Changes
+
+Record significant architecture decisions, including changes from the proposed design. Copy the table for each decision you want to explain.
+
+| Field | Your response |
+| --- | --- |
+| Decision name | Give the decision a short title |
+| Decision status | Proposed, Accepted, Superseded, or Rejected |
+| Context | Explain the requirement, problem, or constraint |
+| Decision | Describe your choice and why you made it |
+| Consequences | Explain the benefits and trade-offs, including cost, security, reliability, or operational effort where relevant |
+
+If you followed the proposed architecture without changes, write: **“No architecture changes were made.”**
+
+---
+
+#### Screenshot A2-1 — Platform Repository Structure
+
+Add a screenshot of your platform repository’s folder structure in VS Code or GitHub.
+
+Below the screenshot, identify the folders containing:
+
+- Terraform infrastructure code.
+
+- Kubernetes deployment files, Helm charts, and Helm values where used.
+
+- CI/CD and ArgoCD configuration, or the deployment tools you selected.
+
+- Claude Code configuration.
+
+- Project documentation.
+
+Add your screenshot and brief explanation here.
+
+---
+
+## Task A3 — Individual Agentic AI Evidence — Required
+
+### Goal
+
+Demonstrate how you used Claude Code during your individual project and verified its work.
+
+### Task You Worked On
+
+Choose **one task** you completed using Claude Code—for example, configuring Terraform, reviewing Kubernetes manifests, or troubleshooting a deployment.
+
+**What was the task, and how did Claude Code help?**
+
+Write your response here.
+
+### Evidence
+
+#### Screenshot A3-1 — Working with Claude Code
+
+Add a screenshot showing your request to Claude Code and its response or actions for the chosen task. Use additional screenshots if needed.
 
 Add your screenshot here.
 
 ---
 
-# Task 3 — Tech Stack
+#### Screenshot A3-2 — Verification Result
 
-## Goal
-
-List the technologies used in each layer of your project.
-
-### Evidence
-
-| Layer | Technology Used |
-|-------|----------------|
-| Cloud | Add your answer here... |
-| IaC | Add your answer here... |
-| CI/CD | Add your answer here... |
-| Containers | Add your answer here... |
-| Config Mgmt | Add your answer here... |
-
----
-
-# Task 4 — What I Built
-
-## Goal
-
-Walk through what you implemented, step by step.
-
-### Evidence
-
-#### Step 1 — Add your step name here
-
-Add your answer here...
-
-#### Screenshot 2 — Step 1
+Add a screenshot showing how you verified the result—for example, successful Terraform validation, a successful pipeline run, or Kubernetes pods showing `Running` with all containers ready.
 
 Add your screenshot here.
 
-#### Step 2 — Add your step name here
+**What did you check before accepting Claude Code’s work? Mention any recommendation you corrected or rejected, if applicable.**
 
-Add your answer here...
+Write your response here.
 
-#### Screenshot 3 — Step 2
+**How did you confirm that the result worked?**
 
-Add your screenshot here.
+Write your response here.
 
-#### Step 3 — Add your step name here
+### Claude Code Features Used
 
-Add your answer here...
+Which features supported your chosen task: `CLAUDE.md`, skills, subagents, MCP connections, or hooks?
 
-#### Screenshot 4 — Step 3
+Name the features used and briefly explain how they helped. You do not need to attach their configuration files.
+
+Write your response here.
+
+**Use evidence from your individual project for this section.**
+
+---
+
+## Task A4 — Cloud Provisioning and Deployment
+
+### Goal
+
+Create the required cloud infrastructure and deploy Spring Petclinic to Kubernetes using your platform.
+
+### Step 1 — Prepare the Environment
+
+#### Prerequisites and Configuration
+
+List the tools and configuration needed to run your deployment. Include the relevant configuration file names and required variable names. Do not include secret values.
+
+Write your response here.
+
+#### Commands Used
+
+Paste the commands you used to obtain your platform repository and prepare the application source or container images. If your pipeline performs these steps, provide the pipeline file link instead.
+
+```text
+Paste your commands or pipeline file link here.
+```
+
+### Step 2 — Provision your selected cloud platform Resources
+
+### Infrastructure Provisioning
+
+Briefly explain how you created the cloud infrastructure. Include the commands you ran or the provisioning pipeline link.
+
+Write your response here.
+
+#### Screenshot A4-1 — Successful Infrastructure Provisioning
+
+Add a screenshot showing successful infrastructure provisioning. For Terraform, show the completed `terraform apply` output. If provisioning runs through a pipeline, show the successful run.
+
+Include the reviewed plan summary if your workflow uses a plan and approval step.
 
 Add your screenshot here.
 
 ---
 
-# Task 5 — Challenges & Key Learnings
+#### Screenshot A4-2 — Cloud Resources
 
-## Goal
+Add screenshots showing the cloud resources created for your individual project, with the cloud region visible. Use additional screenshots where needed.
 
-Reflect on what was hard, how you solved it, and your biggest takeaways from the full program.
+Add your screenshots here.
+
+### Step 3 — Deploy the Application
+
+### Deployment Method
+
+Briefly explain how you deployed Spring Petclinic to Kubernetes. Include the commands you ran or the deployment pipeline link.
+
+Write your response here.
+
+#### Screenshots A4-3 — Build and Application Deployment
+
+Add a screenshot of your successful image build-and-push workflow and a screenshot showing the application deployment succeeded. For the reference workflow, show GitHub Actions and ArgoCD applications marked `Synced` and `Healthy`. If you chose different tools, show equivalent results and explain the choice in your architecture decisions.
+
+Add your screenshot here.
+
+---
+
+#### Screenshot A4-4 — Kubernetes Pod Status
+
+Run:
+
+```bash
+kubectl get pods -n <application-namespace>
+```
+
+Replace `<application-namespace>` with your application’s namespace.
+
+Add a screenshot showing the application pods in the `Running` state, with all containers ready in the `READY` column. Explain any pods that are not running or ready.
+
+Add your screenshot here.
+
+### Startup Dependencies
+
+Briefly explain:
+
+1. How the application services receive their configuration.
+Write your answer here.
+
+2. How services discover and connect to one another.
+Write your answer here.
+
+3. How your deployment checks that services are ready to receive traffic.
+Write your answer here.
+
+---
+
+## Task A5 — Application Verification in the Cloud
+
+### Goal
+
+Verify that Spring Petclinic works correctly through your individual cloud deployment.
+
+### Application URL
+
+**Application URL:** Add your deployed application URL here.
+
+Complete the following checks using this deployment.
 
 ### Evidence
 
-#### Challenges & How I Solved Them
+#### Screenshot A5-1 — Application Homepage
 
--
--
--
+Open your application URL and add a screenshot showing the Spring Petclinic homepage, with the URL visible in the browser.
 
-#### Key Learnings from the Full Program
-
--
--
--
+Add your screenshot here.
 
 ---
 
-# Task 6 — LinkedIn Post
+#### Screenshot A5-2 — Owners List
 
-## Goal
+Navigate to **Find Owners** and search without entering a name. Add a screenshot showing the returned owners list.
 
-Publish a LinkedIn post summarizing your final project and your journey through the program.
+Add your screenshot here.
+
+---
+
+#### Screenshot A5-3 — Pet Details and Visit History
+
+Open an owner’s details. Add a screenshot showing their pets and visit history.
+
+Add your screenshot here.
+
+---
+
+#### Screenshot A5-4 — Add a Visit
+
+Add a visit for a pet using demonstration data. Submit it, then capture a screenshot showing the new visit in the pet’s visit history.
+
+Add your screenshot here.
+
+---
+
+#### Screenshot A5-5 — Veterinarians List
+
+Open the **Veterinarians** page. Add a screenshot showing the veterinarians and their specialties.
+
+Add your screenshot here.
+
+### Functional Test Summary
+
+Briefly state whether all five checks passed. If any check failed, describe the issue and its current status.
+
+Write your response here.
+
+---
+
+## Task A6 — Observability Verification
+
+### Goal
+
+Verify service registration, application health, metrics, dashboards, and request traces for your individual cloud deployment.
+
+### Evidence
+
+Use the tools listed below, or the equivalent tools selected for your architecture. If you used an alternative, name it and provide evidence of the same check. Explain the change in your architecture decisions.
+
+#### Screenshot A6-1 — Eureka Service Registration
+
+Open the Eureka dashboard. Take a screenshot showing the registered application services.
+
+Add your screenshot here.
+
+**List the registered services. If an expected service is missing, explain why.**
+
+Write your answer here.
+
+---
+
+#### Screenshot A6-2 — Application Health
+
+Open Spring Boot Admin. Take a screenshot showing the application services and their health status.
+
+Add your screenshot here.
+
+**Are the services healthy? Explain any service reporting a problem.**
+
+Write your answer here.
+
+---
+
+#### Screenshot A6-3 — Prometheus Metrics
+
+Generate application traffic by browsing owners, pet details, or veterinarians. Open Prometheus and run a query for an application request metric, such as `http_server_requests_seconds_count`, if available.
+
+Take a screenshot showing the query and its result.
+
+Add your screenshot here.
+
+**What does this metric measure, and what does your result show?**
+
+Write your answer here.
+
+---
+
+#### Screenshot A6-4 — Grafana Dashboard
+
+Open a Grafana dashboard displaying metrics from your cloud deployment. Take a screenshot showing panels with data.
+
+Add your screenshot here.
+
+**Choose one panel and briefly explain what it shows about your application.**
+
+Write your answer here.
+
+---
+
+#### Screenshot A6-5 — Zipkin Request Trace
+
+Perform an action in Spring Petclinic, such as searching for owners. Open Zipkin, find a trace from that activity, and open its details.
+
+Take a screenshot showing the trace and the services involved.
+
+Add your screenshot here.
+
+**Which services appear in the trace, and what does it show about the request’s flow?**
+
+Write your answer here.
+
+---
+
+## Task A7 — Troubleshooting and Validation
+
+### Goal
+
+Describe one issue you investigated during your individual project, how you resolved it, and how you verified the result.
+
+### Issue and Resolution
+
+Briefly answer the following:
+
+1. **What went wrong?** Describe the problem and any error message you received.
+
+   Write your answer here.
+
+2. **How did you investigate it?** Explain which logs, Kubernetes events, or command outputs you checked and what you found.
+
+   Write your answer here.
+
+3. **What caused the problem, and how did you fix it?**
+
+   Write your answer here.
+
+4. **How did Claude Code help?** Explain its role and how you reviewed its recommendations. If you solved this issue without Claude Code, state that.
+
+   Write your answer here.
+
+### Evidence
+
+#### Screenshot A7-1 — Problem or Investigation
+
+Add a screenshot showing the error or the logs, events, or command output you used to investigate it.
+
+Add your screenshot here.
+
+---
+
+#### Screenshot A7-2 — Verification After the Fix
+
+Add a screenshot showing that the issue was resolved—for example, a successful pipeline run, application functionality restored, or Kubernetes pods running with all containers ready.
+
+Add your screenshot here.
+
+**Briefly explain how this result confirms the fix worked.**
+
+Write your answer here.
+
+---
+
+If you did not encounter an issue, describe one validation check you performed, what you investigated, and what the result confirmed. Include screenshots of the check and its result.
+
+---
+
+## Task A8 — Cleanup and Cost Control
+
+### Goal
+
+Remove the cloud resources created for your individual project and check for any remaining resources that could incur charges.
+
+### Cleanup
+
+Capture all required deployment screenshots before removing resources.
+
+**What commands or automation did you use to remove your resources?**
+
+Paste your cleanup commands or automation run link here.
+
+### Evidence
+
+#### Screenshot A8-1 — Cleanup Result
+
+Add a screenshot showing successful cleanup—for example, completed `terraform destroy` output or a successful cleanup pipeline run.
+
+Add your screenshot here.
+
+---
+
+#### Screenshot A8-2 — Remaining Resources
+
+Check the AWS or Azure portal for any remaining project resources, including:
+
+- Kubernetes clusters and worker nodes, such as EKS or AKS.
+
+- Load balancers.
+
+- Disks, volumes, and snapshots.
+
+- NAT gateways, if created, and allocated public IP addresses.
+
+- Databases, container registries, and any other resources created for your project.
+
+Add screenshots showing the results of your checks.
+
+Add your screenshots here.
+
+**Did any project resources remain?** If yes, list them, explain why they remain, whether they could incur charges, and when you will remove them. Otherwise, state that no project resources remain.
+
+Write your answer here.
+
+---
+
+## Task A9 — Personal Reflection
+
+### Goal
+
+Reflect on your individual project, technical decisions, and experience using Claude Code.
+
+### Reflection Questions
+
+Answer each question briefly in your own words.
+
+#### 1. What was the most challenging part of deploying your platform to your selected cloud platform, and how did you handle it?
+
+Write your answer here.
+
+#### 2. What belongs in your platform repository, and how is it different from the application repository?
+
+Write your answer here.
+
+#### 3. How did Claude Code help you, and which decisions did you make yourself?
+
+Write your answer here.
+
+#### 4. How did you verify that the application worked beyond checking that the Kubernetes pods were running?
+
+Write your answer here.
+
+#### 5. How did you manage secrets, control network access, and provide configuration to the application?
+
+Write your answer here.
+
+#### 6. What would you improve before using this platform for a real production workload, and why?
+
+Write your answer here.
+
+---
+
+## Task A10 — LinkedIn Post — Individual Cloud Deployment
+
+### Goal
+
+Publish a separate LinkedIn post sharing your individual cloud deployment, what you learned, and how you used Claude Code.
+
+### Post Requirements
+
+Write the post in your own words. Suggested length: **150–300 words**.
+
+Include:
+
+- What you personally built and deployed to AWS or Azure using Kubernetes.
+- The main tools used and any architecture decision you want to highlight.
+- How you used Claude Code and verified its work.
+- A challenge you resolved or a technical lesson you learned.
+- A screenshot of your working application.
+- Your platform architecture diagram.
+- Your individual platform repository link and application URL.
+- Tags for Pravin Mishra and your co-mentors.
+
+If you removed the cloud resources after verification, mention that the deployment was cleaned up.
+
+Include these hashtags and add **#AWS** or **#Azure** for your selected cloud platform:
+
+**#DMIByPravinMishra #DevOps #AgenticAI**
+
+### Required Credit Note
+
+Add the following at the end of your post. Replace `YOUR-GITHUB-USERNAME` with your GitHub username and tag Pravin Mishra using LinkedIn’s tagging feature.
+
+**P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+
+**Interested in joining DMI Cohort 4?** Join the waiting list to receive program details and next steps: [https://docs.google.com/forms/d/e/1FAIpQLSdJTrzJi33PvpccoAiPOaN2RuYpPEk_ltzRQsEqM6YbkYEBCg/viewform](https://docs.google.com/forms/d/e/1FAIpQLSdJTrzJi33PvpccoAiPOaN2RuYpPEk_ltzRQsEqM6YbkYEBCg/viewform)
 
 ### Evidence
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+Paste your published LinkedIn post URL here:
 
-Add the following credit note at the end of your post:
-
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+`Add your URL here`
 
 ---
 
-*Part of the [DevOps Micro Internship with Agentic AI](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) by Pravin Mishra — Join: https://discord.pravinmishra.com/?utm_source=github&utm_medium=readme*
+#### Screenshot A10-1 — Published LinkedIn Post
+
+Add a screenshot showing your published caption, project image, and required credit note. Use additional screenshots if the full post does not fit in one image.
+
+Add your screenshot here.
+
+---
+
+## Task A11 — Blog — Individual Cloud Deployment
+
+### Goal
+
+Publish a technical walkthrough explaining your individual cloud deployment, architecture decisions, and experience using Claude Code.
+
+### Blog Requirements
+
+Write the blog in your own words. Suggested length: **700–1,200 words**.
+
+Include:
+
+- An overview of Spring Petclinic and the purpose of your platform repository.
+- Your AWS or Azure architecture diagram and the prerequisites for deployment.
+- Any significant architecture changes, why you made them, and their trade-offs.
+- Infrastructure provisioning and Kubernetes deployment steps, with relevant commands and configuration examples.
+- How you used Claude Code, reviewed its recommendations, and verified the results.
+- Screenshots of the working application, functionality checks, and monitoring results.
+- A challenge you resolved and what you learned.
+- How you cleaned up cloud resources and checked for remaining costs.
+- Your individual platform repository link and application URL, if publicly accessible.
+
+### Required Credit Note
+
+Add the following at the end of your blog. Replace `YOUR-GITHUB-USERNAME` with your GitHub username.
+
+**P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+
+**Interested in joining DMI Cohort 4?** Join the waiting list to receive program details and next steps: [https://docs.google.com/forms/d/e/1FAIpQLSdJTrzJi33PvpccoAiPOaN2RuYpPEk_ltzRQsEqM6YbkYEBCg/viewform](https://docs.google.com/forms/d/e/1FAIpQLSdJTrzJi33PvpccoAiPOaN2RuYpPEk_ltzRQsEqM6YbkYEBCg/viewform)
+
+### Evidence
+
+**Blog platform:** Add your platform here.
+
+**Blog title:** Add your blog title here.
+
+#### Published Blog URL
+
+Paste your published blog URL here:
+
+`Add your URL here`
+
+Ensure that the published blog and its images can be viewed by the submission reviewer.
+
+---
+
+## Submission Instructions
+
+- Complete Tasks A1–A11.
+
+- Submit one completed Markdown document per student through the assignment submission GitHub repository, following the cohort folder and filename instructions.
+
+- Include all requested screenshots, answers, architecture diagrams, repository links, presentation slides, and presentation recording.
+
+- Include **LinkedIn post URL and blog URL** for the ndividual project.
+
+- Add the required credit note. Replace `YOUR-GITHUB-USERNAME` with your GitHub username.
+
+- Store screenshots in an accessible evidence folder and use working image links.
+
+- Review all screenshots, logs, and files for credentials and sensitive information before submitting.
+
+## Completion Checklist
+
+### Part A — Individual Project
+
+- [ ] My individual platform repository, cloud region, deployment date, cloud services, and application URL are recorded.
+
+- [ ] My architecture diagram, repository structure screenshot, and architecture decisions or no-change statement are included.
+
+- [ ] Claude Code evidence shows my own workflow, review, and verification.
+
+- [ ] Cloud provisioning, application deployment, and Kubernetes pod status screenshots are included.
+
+- [ ] Homepage, owners, pet details, visit history, newly added visit, and veterinarians checks are complete.
+
+- [ ] Service discovery, application health, metrics, dashboard, and tracing evidence and explanations are included.
+
+- [ ] Troubleshooting or validation evidence is included.
+
+- [ ] Cleanup evidence and any remaining resources are documented.
+
+- [ ] All personal reflection questions are answered.
+
+- [ ] My individual-project LinkedIn post is published, with its URL and screenshot included.
+
+- [ ] My individual-project blog is published and linked.
+
+### Document Quality
+
+- [ ] Application code was not modified; platform changes are in the platform repositories.
+
+- [ ] All response placeholders have been replaced.
+
+- [ ] Screenshots are readable, labelled, and accessible.
+
+- [ ] Repository links, presentation links, published posts, and images are accessible to reviewers.
+
+- [ ] Both LinkedIn posts and both blogs include the required credit note.
+
+- [ ] My GitHub username is correctly inserted in each graded-progress URL.
+
+- [ ] No credentials, secrets, or sensitive information are exposed.
+
+- [ ] I have completed the submission requirements and explained significant architecture decisions or changes.
+
+## Student Declaration
+
+I confirm that this submission accurately represents my individual deployment. I have documented my use of Claude Code, reviewed its outputs, and can explain the platform configuration, technical decisions, and verification evidence submitted.
+
+**Full name:** Add your full name  
+
+**Date:** DD Month YYYY
+
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

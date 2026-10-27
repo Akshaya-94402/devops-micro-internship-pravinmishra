@@ -506,13 +506,13 @@ Week-11 is **8 assignment files**, each graded pass/fail — your LinkedIn post 
 
 | S. No. | Item | Comments | Link |
 |--------|------|----------|------|
-| 1 | Week-12 Class Recording | Watch the recording of the Week-12 live class on YouTube | - |
+| 1 | Week-12 Class Recording | Watch the recording of the Week-12 live class on YouTube | [YouTube](https://www.youtube.com/live/M_WS-J6ATRE?si=pYWeFXt-xdslBp4d) |
 
 ---
 
 ### Week 12: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
 
-* **Deadline - __**
+* **Deadline - 15 October 2026**
 
 Week-12 is **11 assignment files**, each graded pass/fail — your LinkedIn post and blog post for the week are scored separately below:
 

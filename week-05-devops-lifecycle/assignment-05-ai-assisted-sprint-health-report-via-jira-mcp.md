@@ -169,18 +169,53 @@ The Human Act step must stay human because changing a Jira issue can affect spri
 
 ---
 
+# LinkedIn Post (Required)
+
+## Goal
+
+Publish a LinkedIn post including a screenshot of your `/sprint-health` report.
+
+Write a caption in your own words explaining:
+- What you built using Claude Code and Jira MCP
+- What you learned about connecting AI to live sprint data
+- How the sprint-health report helps identify issues that need attention
+- Why you restricted the assistant to read-only access and kept board changes under human control
+
+Include these hashtags:
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #Agile
+
+Add the credit note for your track, as provided in the assignment guidelines, and replace `YOUR-GITHUB-USERNAME` with your GitHub username.
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+`Add your URL here`
+
+---
+
+#### Screenshot 9 — Published LinkedIn post showing the caption and sprint-health report image
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 Complete all tasks in sequence.
 
 Your submission must include:
-- All 8 required screenshots
+- All 9 required screenshots
 - All the required notes
 
 ---
 
 # Completion Checklist
 
+<<<<<<< HEAD
 - [✅] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
 - [✅] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
 - [✅] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
@@ -191,6 +226,20 @@ Your submission must include:
 - [✅] Skill never created, edited, transitioned, or commented on any issue
 - [✅] Reflection answered (Notes)
 - [✅] No API token value exposed
+=======
+- [ ] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
+- [ ] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
+- [ ] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
+- [ ] Task 4: `/mcp` shows the Jira server connected (Screenshot 4)
+- [ ] Task 5: Live query returned real sprint data, verified against the browser (Screenshot 5)
+- [ ] Task 6: `/sprint-health` skill created with correct read-only `allowed-tools`, and produced a full report (Screenshots 6–7)
+- [ ] Task 7: A manual board change was reflected in a second `/sprint-health` run (Screenshot 8)
+- [ ] Skill never created, edited, transitioned, or commented on any issue
+- [ ] Reflection answered (Notes)
+- [ ] No API token value exposed
+- [ ] LinkedIn Post URL
+- [ ] LinkedIn Screenshot 1
+>>>>>>> upstream/main
 
 ---
 
