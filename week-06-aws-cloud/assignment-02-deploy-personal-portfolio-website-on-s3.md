@@ -94,7 +94,7 @@ Add your screenshot here.
 
 ---
 
-# Task 7 — (Optional) Update One Small Detail and Re-Upload
+# Task 7 — Update One Small Detail and Re-Upload
 
 ## Goal
 
@@ -102,7 +102,7 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 ### Evidence
 
-#### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
+#### Screenshot 7 — Before and after views, or a browser view showing the updated text
 
 Add your screenshot here.
 
@@ -155,7 +155,7 @@ Add your screenshot here.
 - [ ] Task 4: Static website hosting enabled (Screenshot 4)
 - [ ] Task 5: Public-read bucket policy saved (Screenshot 5)
 - [ ] Task 6: Live website verified through the S3 website endpoint (Screenshot 6)
-- [ ] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
+- [ ] Task 7: Small update re-uploaded and verified (Screenshot 7)
 - [ ] S3 Website Endpoint URL included
 - [ ] No sensitive account information exposed
 - [ ] Linkedin post published
