@@ -82,8 +82,8 @@ Week 03 → Linux & Bash for DevOps
 Week 04 → Git & GitHub 
 [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/)
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+Week 05 → DevOps Lifecycle & Agile 
+[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
 <!-- Week 06 → AWS Cloud -->
 <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
@@ -135,7 +135,7 @@ Week 04 → Git & GitHub
 | 02 | Agentic AI with Claude Code |✅Completed|✅Solved|https://www.linkedin.com/posts/akshaya-bheemanathi-8618a2423_dmibypravinmishra-agenticai-claudecode-share-7510391795374206976-BHjo/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGtzzEkBOYmQK2WIK_NOclE5XNXW4ISP3qk|https://medium.com/@akshayabheemanathi75/week-02-reflection-agentic-ai-37b0c4c514dd?sharedUserId=akshayabheemanathi75|
 | 03 | Linux & Bash for DevOps |✅Completed|✅Solved|https://www.linkedin.com/posts/akshaya-bheemanathi-8618a2423_dmibypravinmishra-devops-aws-share-7511825440085467136-PXfx/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGtzzEkBOYmQK2WIK_NOclE5XNXW4ISP3qk|https://medium.com/@akshayabheemanathi75/week-03-journey-exploring-linux-bash-scripting-and-ai-assisted-incident-triage-dmi-cohort-3-553f9cb07830|
 | 04 | Git & GitHub |✅Completed|✅Solved|https://www.linkedin.com/posts/akshaya-bheemanathi-8618a2423_dmibypravinmishra-devops-agenticai-share-7512682391895707648-o94w/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGtzzEkBOYmQK2WIK_NOclE5XNXW4ISP3qk|https://medium.com/@akshayabheemanathi75/my-devops-learning-journey-week-04-git-github-for-devops-engineers-of-the-devops-micro-36ddecd854d4|
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile|✅Completed|✅Solved|https://www.linkedin.com/posts/akshaya-bheemanathi-8618a2423_dmibypravinmishra-devops-jira-share-7520887390912139265-e5Ro/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGtzzEkBOYmQK2WIK_NOclE5XNXW4ISP3qk|https://medium.com/@akshayabheemanathi75/week-05-devops-lifecycle-2f3cde526725?postPublishedType=initial|
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
