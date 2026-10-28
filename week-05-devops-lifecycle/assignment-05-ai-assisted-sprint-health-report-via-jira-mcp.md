@@ -214,7 +214,6 @@ Your submission must include:
 ---
 
 # Completion Checklist
-
 - [✅] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
 - [✅] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
 - [✅] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
