@@ -193,13 +193,13 @@ Add the credit note for your track, as provided in the assignment guidelines, an
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/akshaya-bheemanathi-8618a2423_dmibypravinmishra-devops-jira-share-7521195368286687232-rnCm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGtzzEkBOYmQK2WIK_NOclE5XNXW4ISP3qk
 
 ---
 
 #### Screenshot 9 — Published LinkedIn post showing the caption and sprint-health report image
 
-Add your screenshot here.
+![alt text](screenshots/week-05-screenshot-68.png)
 
 ---
 
@@ -215,7 +215,6 @@ Your submission must include:
 
 # Completion Checklist
 
-<<<<<<< HEAD
 - [✅] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
 - [✅] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
 - [✅] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
@@ -226,21 +225,6 @@ Your submission must include:
 - [✅] Skill never created, edited, transitioned, or commented on any issue
 - [✅] Reflection answered (Notes)
 - [✅] No API token value exposed
-=======
-- [ ] Task 1: Jira API token created, value never screenshotted (Screenshot 1)
-- [ ] Task 2: `.mcp.json` has the Jira server block (Screenshot 2)
-- [ ] Task 3: Credentials stored in `settings.local.json`, token blurred, file gitignored (Screenshot 3)
-- [ ] Task 4: `/mcp` shows the Jira server connected (Screenshot 4)
-- [ ] Task 5: Live query returned real sprint data, verified against the browser (Screenshot 5)
-- [ ] Task 6: `/sprint-health` skill created with correct read-only `allowed-tools`, and produced a full report (Screenshots 6–7)
-- [ ] Task 7: A manual board change was reflected in a second `/sprint-health` run (Screenshot 8)
-- [ ] Skill never created, edited, transitioned, or commented on any issue
-- [ ] Reflection answered (Notes)
-- [ ] No API token value exposed
-- [ ] LinkedIn Post URL
-- [ ] LinkedIn Screenshot 1
->>>>>>> upstream/main
-
 ---
 
 ## 📌 About DMI & CloudAdvisory
