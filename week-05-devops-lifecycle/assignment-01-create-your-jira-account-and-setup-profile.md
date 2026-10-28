@@ -78,7 +78,7 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 
 #### Screenshot 5 — Opened project showing either the Board or Backlog screen
 
-Add your screenshot here.
+![alt text](screenshots/week-05-screenshot-69.png)
 
 ---
 
@@ -92,7 +92,7 @@ Share your Jira setup progress on WhatsApp Status, including your generated DMI 
 
 #### Screenshot 6 — Published WhatsApp Status showing your Jira setup message and generated DMI leaderboard progress link
 
-Add your screenshot here.
+![alt text](screenshots/week-05-screenshot-70.png)
 
 ---
 
